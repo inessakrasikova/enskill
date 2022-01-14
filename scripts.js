@@ -13,6 +13,16 @@ function selectTheme (theme){
     console.log("selectTheme");
     console.log(theme);
 
+    // var obj;
+    // fetch('./data.json').then(response => {
+    //     return response.json();
+    // }).then(data => {
+    //     // Work with JSON data here
+    //      obj =  JSON.parse(data)
+    //      // console.log("obj" + obj);
+    // }).catch(err => {
+    //     // Do something for an error here
+    // });
 
 inputMassive = daysOfTheWeek[0];
 outputMassive = daysOfTheWeek[1];

@@ -58,3 +58,9 @@ a:hover {
     color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
     background: #e24486; /* Цвет фона */
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

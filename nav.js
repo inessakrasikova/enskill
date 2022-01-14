@@ -1,9 +1,11 @@
 
 var nav = document.getElementById('navigation');
-// Формирование ссылок на пункты меню
+/**
+ * Формирование ссылок на пункты меню
+ */
 function linkHref(link, name){
     //TODO: разобраться, как правильно передавать аргумент при формирвоании статичных ссылок.
-    return ('<a href="#" type="button" onclick=selectTheme('+ link + ')>'+ name + '</a>');
+    return `<a href="#" type="button" onclick=selectTheme('${link}')>${name}</a>`;
 }
 
 function subsubmenu(parent, childdata){
@@ -72,19 +74,10 @@ function createLink(data){
     }
 }
 
-//TODO: Реализовать подгрузку из файла.
 
-// (async () => {
-//     let DB = await(await fetch('data.json')).json();
-//     // console.log(navJSON);
-//     // navJSON = DB.submenu;
-//     createLink(DB);
-//
-// })();
-
-
-
-// Replace ./data.json with your JSON feed
+/**
+ * Подгрузка JSON из файла
+ */
 fetch('./data.json').then(response => {
     return response.json();
 }).then(data => {
