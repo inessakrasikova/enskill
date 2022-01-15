@@ -24,6 +24,7 @@ function selectTheme (theme){
         console.log(data[1]['submenu'][0]['submenu'][0][them[1]][0]['ru']);
         console.log(data[1].name);
         // console.log(data);
+        // TODO: Не подставляется var i = them[0]; на строку 28:58. Не разобрался. Как реализовать лучше?
         inputMassive = data[1]['submenu'][0]['submenu'][0][them[1]][0]['ru'];
         outputMassive = data[1]['submenu'][0]['submenu'][0][them[1]][0]['en'];
         // console.log(inputMassive);
