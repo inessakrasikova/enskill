@@ -1,8 +1,3 @@
-const daysOfTheWeek = [["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресение"], ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]];
-const months = [["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"], ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]];
-const planets = [["Солнце", "Меркурий", "Венера", "Земля", "Луна", "Марс", "Юпитер", "Сатурн", "Уран", "Нептун", "Плутон"], ["Sun", "Mercury", "Venus", "Earth", "Moon", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]];
-
-
 var inputMassive ;
 var outputMassive;
 
@@ -10,22 +5,36 @@ var numberOfMistakes = 0;
 var wordNumber = 0;
 
 function selectTheme (theme){
-    console.log("selectTheme");
-    console.log(theme);
 
-    // var obj;
-    // fetch('./data.json').then(response => {
-    //     return response.json();
-    // }).then(data => {
-    //     // Work with JSON data here
-    //      obj =  JSON.parse(data)
-    //      // console.log("obj" + obj);
-    // }).catch(err => {
-    //     // Do something for an error here
-    // });
+    var them = theme.split(',');
 
-inputMassive = daysOfTheWeek[0];
-outputMassive = daysOfTheWeek[1];
+    console.log("them[0]: " + them[0]);
+    var i = them[0];
+    console.log("selectTheme: " + them);
+    console.log("i: " + i);
+    console.log("them: " + them[1]);
+
+
+    /**
+     * Подгрузка JSON из файла
+     */
+    fetch('./data.json').then(response => {
+        return response.json();
+    }).then(data => {
+        console.log(data[1]['submenu'][0]['submenu'][0][them[1]][0]['ru']);
+        console.log(data[1].name);
+        // console.log(data);
+        inputMassive = data[1]['submenu'][0]['submenu'][0][them[1]][0]['ru'];
+        outputMassive = data[1]['submenu'][0]['submenu'][0][them[1]][0]['en'];
+        // console.log(inputMassive);
+        // console.log(outputMassive);
+
+    }).catch(err => {
+        // Do something for an error here
+    });
+
+// inputMassive = daysOfTheWeek[0];
+// outputMassive = daysOfTheWeek[1];
 document.getElementById("translate").placeholder = "Write your translation";
 numberOfMistakes = 0
 wordNumber = 0;
@@ -39,6 +48,7 @@ function showWord() {
     document.getElementById('word').innerHTML 
     = inputMassive[wordNumber];
 }
+
 
 function checkWord() {
     var translate = document.getElementById('translate').value;

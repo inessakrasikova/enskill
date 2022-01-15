@@ -1,11 +1,10 @@
 [
   {"title": "Game", "link": "/games"},
-  {"title": "Повседневное",  "link": "/community", "keyName": "community", "submenu": [
-    {"title": "Время",  "link": "/time", "keyName": "media2", "submenu": [
-      {"title": "Дни недели",  "link": [{"ru": ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресение"], "en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]}]},
-      {"title": "Месяцы года",  "link": "2cde"},
-      {"title": "Monk",  "link": "3abc"},
-      {"title": "Witch Doctor",  "link": "4"}
+  {"title": "Community",  "link": "/community", "keyName": "community", "submenu": [
+    {"title": "Time",  "link": "/time", "keyName": "media2", "submenu": [
+      {"title": "Дни недели",  "link": ["1","days"], "days": [{"ru": ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресение"], "en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]}]},
+      {"title": "Месяцы года",  "link": ["2","months"], "months": [{"ru": ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"], "en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]}]},
+      {"title": "Планеты",  "link": ["3","planets"], "months": [{"ru": ["Солнце", "Меркурий", "Венера", "Земля", "Луна", "Марс", "Юпитер", "Сатурн", "Уран", "Нептун", "Плутон"], "en": ["Sun", "Mercury", "Venus", "Earth", "Moon", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]}]}
     ]},
     {"title": "Gameplay", "link": "/games"},
     {"title": "Classes",  "link": "/community", "keyName": "classes2", "submenu": [
