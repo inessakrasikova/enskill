@@ -1,0 +1,270 @@
+https://english4real.com/vocabulary-general-english-computer-term.html
+https://englishfull.ru/leksika/kompyuternye-terminy.html
+
+// ========== 1 из 20
+
+var roomNamesEn = ["kitchen", "bathroom", "hall", "living room", "toilet", "garage", "pantry", "closet", "guest room", "playroom", "workshop", "basement", "attic"];
+var roomNamesRu = ["кухня", "ванная", "коридор", "гостинная", "туалет", "гараж", "кладовка", "гардеробная", "гостевая", "игровая комната", "мастерская", "подвал", "чердак"];
+
+var baseWeatherEn = ["sunny", "raining", "snowing", "windy", "stormy", "hot", "cloudy", "tornado", "lightning", "warm", "cold"];
+var baseWeatherRu = ["солнечно", "дождливо", "снежно", "ветрено", "шторм", "жарко", "пасмурно", "торнадо", "гроза", "жарко", "холодно"];
+
+["father", "mother", "uncle", "brother", "sister", "cousin", "aunt", "grandmother", "grandfather", "son", "daughter", "adopted child"];
+["отец", "мама", "дядя", "брат", "сестра", "кузин", "тетя", "бабушка", "дедушка", "сын", "дочь", "приёмный ребёнок"];
+
+["baseball", "basketball", "football", "hockey", "volleyball", "rowing", "swimming", "boxing", "car racing", "golf"];
+["бейсбол", "баскетбол", "футбол", "волейбол", "гребля", "плавание", "бокс", "гонки на машинах", "гольф"];
+ 
+["mathematics", "biology", "physics", "literature", "geography", "history", "chemistry", "music", "drawing", "physical education"];
+["математика", "биология", "физика", "литература", "география", "история", "химия", "музыка", "рисование", "физкультура"];
+
+// ========== 2 из 20
+
+["cow", "horse", "sheep", "cat", "dog", "pig", "mouse", "rat", "goat", "bull"];
+["корова", "лошадь", "овца", "кошка", "собака", "свинья", "мышь", "крыса", "козел", "бык"]; 
+
+["sweater", "pullover", "jacket", "jeans", "shorts", "socks", "dress", "trousers", "skirt", "top"]; 
+["свитер", "пуловер", "куртка", "джинсы", "шорты", "носки", "платье", "брюки", "юбка", "топ"];
+ 
+["apple", "banana", "kiwi", "lemon", "melon", "watermelon", "grapes", "pear", "pineapple", "peach"];
+["яблоко", "банан", "киви", "лимон", "дыня", "арбуз", "виноград", "груша", "ананас", "персик"];
+ 
+["blender", "TV", "laptop", "printer", "camera", "video camera", "music center", "oven", "toaster"];
+["блендер", "телевизор", "ноутбук", "принтер", "камера", "видео камера", "музыкальный центр", "духовка", "тостер"];
+ 
+["tea", "coffee", "cocoa", "milk", "water", "mineral water", "coke", "juice", "cocktail", "kvass"];
+["чай", "кофе", "какао", "молоко", "вода", "минеральная вода", "кола", "сок", "коктейль", "квас"];
+
+// ========== 3 из 20
+
+["in", "above", "over", "near", "at", "behind", "outside", "inside", "in front of", "beside"];
+["в", "над", "выше", "рядом", "у", "сзади", "снаружи", "внутри", "снаружи у входа", "рядом"];
+
+["brake", "bumper", "engine", "bonnet", "bulbs", "diesel", "fuel", "gear", "highway", "horn"];
+["тормоз", "бампер", "двигатель", "капот", "лампы", "дизель", "топливо", "передача", "автострада", "сигнал"];
+
+["onion", "cucumber", "tomato", "garlic", "pepper", "carrot", "cabbage", "chili paper", "radish", "potato"];
+["лук", "огурец", "томат", "чеснок", "перец", "морковь", "капуста", "острый перец", "редиска", "картофель"];
+
+["hair", "stomach", "lips", "tooth", "skin", "bone", "face", "brain", "legs", "nose"];
+["волосы", "желудок", "губы", "зубы", "кожа", "кость", "лицо", "мозг", "ноги", "нос"];
+
+["bank", "chemist’s", "bakery", "gallery", "building", "cafe", "stall", "bookshop", "zoo", "museum"];
+["банк", "аптека", "пекарня", "галерея", "здание", "кафе", "киоск", "книжный магазин", "зоопарк", "музей"];
+
+// ========== 4 из 20
+
+["hair", "stomach", "lips", "tooth", "skin", "bone", "face", "brain", "legs", "nose"];
+["волосы", "желудок", "губы", "зубы", "кожа", "кость", "лицо", "мозг", "ноги", "нос"];
+
+["cartoon", "animator", "adventure film", "captions", "comedy", "crime film", "drama", "episode", "film", "horror"];
+["мультфильм", "аниматор", "приключенческий фильм", "субтитры", "комедия", "криминальный фильм", "драма", "эпизод", "фильм", "хоррор"];
+
+["browser", "computer mouse", "computer desk", "available", "keyboard", "to log out", "link", "monitor", "network", "player"];
+["браузер", "компьютерная мышка", "компьютерный стол", "доступный", "клавиатура", "входить", "ссылка", "монитор", "учётная запись", "игрок"]; 
+
+["bow", "compose", "concert", "guitar", "musician", "piano", "song", "synthesizer", "violin", "organ"];
+["смычок", "композитор", "концерт", "музыкант", "пианино", "песня", "синтезатор", "виолончель", "орган"];
+
+["parking", "bus", "breakdown", "transit", "dust car", "bulldozer", "station", "metro", "taxi", "truck"];
+["паркинг", "автобус", "авария", "транзит", "мусорная машина", "бульдозер", "станция", "метро", "такси", "грузовик"];
+
+// ========== 5 из 20
+
+["aloe", "rose", "carnation", "gladiolus", "reed", "water lily", "lavender", "lily", "poppy", "mimosa"];
+["алое", "роза", "гвоздика", "гладиолус", "камыш", "кувшинка", "лаванда", "лилия", "мак", "мимоза"];
+
+["visa", "ticket", "hotel", "map", "ship", "resort", "rest", "tent", "train", "capital"];
+["виза", "билет", "гостиница", "карта", "корабль", "курорт", "отдых", "палатка", "поезд", "столица"];
+
+["baker", "author", "butcher", "doctor", "cleaner", "farmer", "designer", "fisherman", "florist", "judge"];
+["пекарь", "автор", "мясник", "доктор", "уборщик", "фермер", "дизайнер", "рыбак", "флорист", "судья"];
+
+["portion", "stuff", "bench", "aquarium", "buffet", "couch", "hammock", "locker", "mirror", "pad"];
+["приданное", "вещи", "скамейка", "аквариум", "буфет", "кушетка", "гамак", "комод", "зеркало", "пуфик"];
+ 
+["whistle", "out", "the ball", "a goal", "victory", "a wall", "the net", "the flag", "a draw", "no goal"];
+["свисток", "аут", "мяч", "гол", "победа", "стенка", "сетка", "флажок", "ничья", "нет гола"];
+
+// ========== 6 из 20
+
+["diamond", "atom", "isotope", "matter", "granite", "ions", "quartz", "oxygen", "crystal", "metal"];
+["алмаз", "атом", "изотоп", "вещество", "гранит", "ионы", "кварц", "кислород", "кристалл", "метал"];
+
+["discount", "suite room", "all inclusive", "pay for services", "pay cash", "available", "cater", "single room", "junior suite", "make a reservation for a room"];
+["скидка", "номер люкс", "все включено", "оплатить услуги", "расплатиться наличными", "в наличии", "обслуживать", "одноместный номер", "полулюкс", "забронировать гостиничный номер"];
+
+["acacia", "baobab", "birch", "beech", "elm", "walnut", "pear tree", "oak", "spruce", "willow"];
+["акация", "баобаб", "береза", "бук", "вяз", "грецкий орех", "грушевое дерево", "дуб", "ель", "ива"];
+
+["absentee voter", "absentee voting", "absentee voting certificate", "absolute majority", "access to media", "accountability", "accreditation", "accredited agent", "adjudication of grievances", "administrative and territorial division of a subject of the Russian Federation"];
+["избиратель", "голосующий заочно", "заочное голосование", "открепительное удостоверение для голосования", "абсолютное большинство", "доступ к СМИ", "подотчетность", "аккредитация", "аккредитованное доверенное лицо", "рассмотрение жалоб", "административно-территориальное устройство субъекта Российской Федерации"]; 
+
+["to practice an art", "abstract art", "classical art", "modern art", "primitive art", "graphic art", "plastic arts", "art school", "Art Nouveau", "antique art"];
+["заниматься искусством", "абстракционизм", "классическое искусство", "современное искусство", "примитивизм", "графическое искусство", "графика", "пластическое искусство", "художественное училище", "франц. стиль модерн художественный и архитектурный стиль конца XIX - начала XX вв", "античное искусство"];
+
+// ========== 7 из 20
+
+["Abkhazia", "Afghanistan", "Albania", "Algeria", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas"];
+["Абхазия", "Афганистан", "Албания", "Алжир", "Аргентина", "Армения", "Австралия", "Австрия", "Азербайджан", "Багамские острова"];
+
+["active", "reckless", "furious", "proud", "humane", "kind", "greedy", "acrimonious", "cruel", "envious"];
+["активный", "безумный", "бешеный", "гордый", "гуманный", "добрый", "жадный", "желчный", "жестокий", "завистливый"];
+
+["birchbark", "ornate", "embroidery", "headwear", "icon", "durability", "suede", "silver work", "glassware", "crystalware"];
+["береста", "богато украшенный", "вышивка", "головной убор", "иконка", "долговечность", "замша", "изделия из серебра", "изделия из стекла", "изделия из хрусталя"];
+
+["acid rain", "air", "alkalinity", "atmosphere", "be threatened with extinction", "biodegradability", "biosphere", "blizzard", "bog", "burdock"]; 
+["кислотный дождь", "воздух", "щелочность", "атмосфера", "быть под угрозой вымирания", "способность к биологическому распаду", "биосфера", "вьюга", "болото", "репейник"];
+ 
+["letter of credit", "trade surplus", "assets", "stock company", "equity capital", "stock", "depreciation", "balance sheet", "ATM, cash machine", "grant"]; 
+["аккредитив", "активный торговый баланс", "активы", "акционерное общество", "акционерный капитал", "акция", "амортизация", "балансовый отчет", "банкомат", "безвозмездная субсидия"];
+
+ // ========== 8 из 20
+
+["Please, get me a doctor", "I'm not feeling well", "It hurts here", "It does not hurt here", "I feel better", "I have a headache", "I have a high temperature", "I feel dizzy", "I have caught a cold", "What medicine should I take?"]; 
+["Вызовите, пожалуйста, врача", "Я плохо себя чувствую", "Здесь болит", "Здесь не болит", "Мне лучше", "У меня болит голова", "У меня высокая температура", "У меня кружится голова", "У меня насморк", "Какое лекарство мне нужно принимать?"];
+ 
+["size", "small", "big", "medium", "little", "large", "huge", "long", "short", "wide"]; 
+["размер", "маленький", "большой", "средний", "маленький", "большой", "огромный", "длинный", "короткий", "широкий"];
+
+["insect", "mosquito", "flea", "firefly", "moth", "dragonfly", "spider", "ladybug", "wasp", "tick"]; 
+["насекомое", "комар", "блоха", "светлячок", "моль", "стрекоза", "паук", "божья коровка", "оса", "клещ"];
+
+["airport", "airplane", "wing", "tail", "cockpit", "cabin", "fuselage", "undercarriage", "lavatory", "window"]; 
+["аэропорт", "самолет", "крыло", "хвост", "кабина", "салон", "корпус, фюзеляж", "шасси", "туалет", "окно"];
+ 
+["space", "planet", "star", "Sun", "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn"]; 
+["пространство; космос", "планета", "звезда", "солнце", "меркурий", "венера", "земля", "марс", "юпитер", "сатурн"];
+ 
+ // ========== 9 из 20
+
+["sea", "ocean", "abyss", "coral", "seal", "crocodile", "alligator", "fish", "trout", "bass"]; 
+["море", "океан", "бездна", "коралл", "тюлень", "крокодил", "аллигатор", "рыба", "форель", "окунь"]; 
+
+["reptile", "crocodile", "alligator", "tortoise", "lizard", "goanna", "iguana", "tadpole", "frog", "salamander"]; 
+["рептилия", "крокодил", "аллигатор", "черепаха", "ящерица", "варан", " игуана", "головастик", "лягушка", "саламандра"];
+
+["bored", "shocked", "hopeful", "excited", "lonely", "nervous", "sad", "hungry", "tired", "sleepy"];
+["скучающий", "шокированный", "надеющийся", "взволнованный", "одинокий", "нервный", "грустный", "голодный", "уставший", "сонный"];
+
+["berry", "blackberry", "barberry", "cowberry", "cherry", "strawberry", "cranberry", "raspberry", "gooseberry", "blueberry"];
+["ягода", "ежевика", "барбарис", "брусника", "вишня", "клубника", "клюква", "малина", "крыжовник", "голубика"];
+
+["pen", "pencil", "paper", "stapler", "eraser", "marker", "glue", "notepad", "ruler", "file"];
+["ручка", "карандаш", "листок", "степлер", "стёрка", "маркер", "клей", "блокнот", "линейка", "файл"];
+
+ // ========== 10 из 20
+
+["waterfall", "rain", "lightning", "rainbow", "ice", "flood", "storm", "cloud", "thunder", "dew"];
+["водопад", "дождь", "молния", "радуга", "лёд", "наводнение", "шторм", "облако", "гром", "роса"];
+
+["plate", "cup", "mug", "bowl", "fork", "lid", "ladle", "jug", "kettle", "coffeepot"];
+["тарелка", "чашка", "кружка", "миска", "вилка", "крышка", "черпак", "кувшин", "чайник", "кофейник"];
+
+["dining room", "buffet", "china", "bowl", "salad bowl", "tablecloth", "saltshaker", "peppershaker", "teapot", "sugar bowl"]; 
+["столовая", "буфет", "фарфор", "чаша", "салатница", "скатерть", "солонка", "перечница", "чайник", "сахарница"];
+
+["hygiene", "care", "toothbrush", "toothpaste", "soap", "comb", "razor", "shaving cream", "scissors", "tweezers"]; 
+["гигиена", "уход", "зубная щётка", "зубная паста", "мыло", "расчёска", "бритва, брить", "крем для бритья", "ножницы", "пинцет, щипчики"];
+
+["aquamarine", "beige", "white", "turquoise", "pale", "bronze", "yellow", "pearl", "green", "goldenrod"]; 
+["аквамарин", "бежевый", "белый", "бирюзовый", "бледный", "бронзовый", "желтый", "жемчужный", "зеленый", "золотистый"];
+
+ // ==========  11  из 20
+
+["time", "past", "future", "present", "age", "millenium", "century", "decade", "year", "month"]; 
+["время", "прошлое", "будущее", "настоящее", "эра", "тысячелетие", "век", "десятилетие", "год", "месяц"];
+
+["action", "walk", "run", "march", "tiptoe", "crawl", "drag", "skip", "push", "leap"]; 
+["действие", "идти, ходить", "бежать, бегать", "маршировать", "ходить на цыпочках", "ползать", "тянуть, тащить", "прыгать, скакать", "толкать; пихать", "прыжок, скачок"];
+
+["housekeeping", "broom", "sweep", "dustpan", "vacuum cleaner", "iron", "ironing board", "mop", "rag", "wipe"]; 
+["уборка", "веник, метла", "подметать, мести", "совок для мусора", "пылесос", "утюг", "гладильная доска", "швабра", "тряпка", "протирать, мыть"];
+
+["cooking", "bake", "boil", "fry", "peel", "slice", "grate", "pour", "mix", "knead"]; 
+["кулинария, готовка", "печь, выпекать", "варить", "жарить", "снимать кожуру", "резать ломтиками", "тереть на терке", "наливать", "смешивать", "замешивать"];
+
+["sleep", "dress", "wake up", "eat", "drink", "feed", "cook", "taste", "spend", "freeze"]; 
+["спать", "одевать (-ся)", "будить", "есть", "пить", "кормить", "готовить пищу", "пробовать на вкус", "проводить", "замораживать"];
+
+// ========== 12 из 20
+
+["now or never", "everyone has ones own path", "remember who you are", "live is beautiful", "enjoy the ride", "live is a journey", "illusion is the first of all pleasures", "all we need is love", "endless love", "forever young"];
+["сейчас или никогда", "у каждого своя дорога", "помни, кто ты есть", "жизнь прекрасна", "наслаждайся дорогой", "жизнь это путешествие", "иллюзия, высшее наслаждение", "всем нам нужна любовь", "бесконечная любовь", "вечно молодой"];
+
+["love and hope", "aspire to inspire", "freedom and peace", "let it be", "never look back", "a live is a moment", "follow your heard", "god never make errors", "never stop dreaming", "May the force be with you"];
+["любовь и надежда", "стремись вдохновлять", "свобода и мир", "пусть будет так", "никогда не смотри назад", "жизнь это мгновение", "слушай своё сердце", "бог никогда не делает ошибок", "никогда не переставай мечтать", "да прибудет с тобой сила"];
+
+["Enjoy every moment", "Only my dream keeps me alive", "I will get everything I want", "Be loyal to the one who is loyal to you", "never look back", "a life is a moment", "Follow your heart ", "I shall not live in vain", "Everyone sees the world in one's own way", "Live without regrets"];
+
+["Наслаждайся каждым моментом", "только моя мечта сохраняет меня живой", "я получу все что я хочу", "будь верен тому,кто верен тебе", "никогда не смотри назад", "жизнь это мгновение", "следуй за своим сердцем", "я не буду жить напрасно", "каждый человек видит мир по своему", "живи без сожалений"];
+
+["how is it going?", "how is life?", "how are things?", "long time no see", "what are you up to", "what have you been up to?", "see you soon", "see you later", "till next time", "good luck"];
+["как идут дела?", "как жизнь?", "как оно?", "давно не виделись", "чем занимаешься?", "чем занимался все это время?", "до скорого", "увидимся позже", "до следующего раза", "удачи"];
+
+// ========== 13 из 20
+
+["take care", "talk to you later", "until we meet again", "have a nice day", "have a good weekend", "have a safe trip", "say he to", "send my love to", "in short", "in a word"];
+["береги себя", "поговорим позже", "до новой встречи", "хорошего дня", "хороших выходных", "острожной поездки", "передай привет", "передай мою любовь", "вкратце", "в двух словах"];
+
+["Beauty and wisdom are seldom found together", "Better a new friend than an old foe", "People rejoice at the Sun, and I'm dreaming of the Moon", "God never makes errors", "Love is never wrong", "Never stop dreaming", "Do not give up, the beginning is always the hardest ", "The future belongs to those, who believe in beauty of their dreams", "Endless love", "Forever young"];
+
+["Красота и разум редко обитают вместе", "Лучше новый друг, чем старый враг", "Люди радуются солнцу, а я мечтаю о луне", "Бог не совершает ошибок", "Любовь не ошибается!", "Никогда не переставай мечтать", "Не сдавайся, начать всегда тяжело", "Будущее принадлежит тем, кто верит в свои мечты", "Бесконечная любовь", "вечно молодой"];
+
+["as far", "not to mention", "first of all", "what’s more", "on one hand", "by the way", "after all", "just for the record", "the thing is", "as a rule"];
+["что касается", "не говоря уже о", "прежде всего", "кроме того", "дело в том, что", "кстати", "в итоге", "для справки", "дело в том", "обычно, как правило"];
+
+["I’m so sorry!", "I beg your pardon!", "I’m sorry, I can’t.", "Sorry, I meant well", "It’s very kind of you!", "Thank you anyway!", "Thank you in advance!", "Don’t mention it!", "May I help you?",  "After you!"];
+["Мне очень жаль!", "Прошу прощения!", "Простите, не могу", "Извините, я хотел как лучше", "Это очень мило с вашей стороны!", "В любом случае, спасибо!", "Спасибо заранее!", "Не стоит благодарности!", "Могу ли я вам помочь?", "После вас!"];
+
+// ========== 14 из 20
+
+["I didn’t catch the last word", "Sorry, I wasn’t listening", "This way, please!", "It is new to me", "Let us hope for the best", "May I ask you a question?", "Next time lucky!", "Oh, that. That explains it", "Say it again, please",  "So that’s where the trouble lies!"];
+["Я не понял последнее слово", "извините,я прослушал", "это не имеет значения", "эта новость для меня", "Будем надеяться на лучшее", "Можно задать вам вопрос?", "Повезет в следующий раз!", "Вот оно что, это все объясняет", "Повторите еще раз, пожалуйста",  "Так вот в чем дело!"];
+
+??????????????????????
+["Things happen", "What do you mean?", "Where were we?", "You were saying?", "I’m sorry, I didn’t catch you", "Lucky you!", "Good for you!", "’I'm so happy
+
+["be", "have", "do", "say", "go", "get", "make", "know", "think", "take"]; 
+["быть", "иметь", "делать", "говорить", "идти", "получать", "делать", "знать", "думать", "брать"];
+
+["see", "come", "want", "use", "find", "give", "tell", "work", "call", "try"]; 
+["видеть", "приходить", "хотеть", "использовать", "находить", "давать", "рассказывать", "работать", "звонить", "пытаться"];
+
+["seem", "help", "show", "hear", "play", "run", "move", "live", "believe", "bring"]; 
+["казаться", "помогать", "показывать", "слышать", "играть", "бежать", "двигаться", "жить", "верить", "приносить"];
+
+// ========== 15 из 20
+
+["happen", "write", "sit", "stand", "lose", "pay", "meet", "include", "continue", "set"]; 
+["случаться", "писать", "сидеть", "стоять", "терять", "платить", "встречать", "включать", "продолжать", "устанавливать"];
+
+["learn", "change", "lead", "understand", "watch", "follow", "stop", "create", "speak", "read"]; 
+["учить", "менять", "вести", "понимать", "смотреть", "следовать", "останавливать", "создавать", "говорить", "читать"];
+
+["spend", "grow", "open", "walk", "win", "teach", "offer", "remember", "consider", "appear"]; 
+["тратить", "расти", "открывать", "идти", "побеждать", "учить", "предлагать", "помнить", "считать", "появляться"];
+
+["buy", "serve", "die", "send", "build", "stay", "fall", "cut", "reach", "kill"]; 
+["покупать", "служить", "умирать", "посылать", "строить", "оставаться", "падать", "резать", "достигать", "убивать"];
+
+["raise", "pass", "sell", "decide", "return", "explain", "hope", "develop", "carry", "break"]; 
+["поднимать", "миновать", "продавать", "решать", "возвращаться", "объяснять", "надеяться", "развивать", "везти; нести", "ломать"];
+
+// ========== 16 из 20
+
+["receive", "agree", "support", "hit", "produce", "eat", "cover", "catch", "draw", "choose"]; 
+["получать", "соглашаться", "поддерживать", "ударять", "производить", "есть", "покрывать", "ловить", "рисовать", "выбирать"];
+
+["raise", "pass", "sell", "decide", "return", "explain", "hope", "develop", "carry", "break"];  
+["поднимать", "миновать", "продавать", "решать", "возвращаться", "объяснять", "надеяться", "развивать", "везти; нести", "ломать"];
+
+
+// ========== 17 из 20
+
+// ========== 18 из 20
+
+// ========== 19 из 20
+
+// ========== 20 из 20
