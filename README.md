@@ -1,3 +1,4 @@
+![alt text](img/enskill.png "Title")
 # [Enskill](https://aruytehno.github.io/enskill/)
 ### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/enskill/englotron/index.html)
 * Сайт разработан для тренировки правописания и запоминания слов.
