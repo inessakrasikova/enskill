@@ -3,7 +3,7 @@ var nav = document.getElementById("navigation");
  * Формирование ссылок на пункты меню
  */
 function linkHref(link, name) {
-  return `<H1><a class="nav-link" href="#" type="button" data-theme="${link}">${name}</a></H1>`;
+  return `<a class="nav-link" href="#" type="button" data-theme="${link}">${name}</a>`;
 }
 
 function subsubmenu(parent, childdata) {
@@ -17,7 +17,7 @@ function subsubmenu(parent, childdata) {
   for (item of childdata) {
     var line = document.createElement("li");
     line.className = item.submenu ? "opened-for-codepen" : "nav-item";
-    line.innerHTML = linkHref(item.link, item.title);
+    line.innerHTML = '<H3>' + linkHref(item.link, item.title) + '</H3>';
 
     if (item.submenu) {
       submenuId.appendChild(line);
@@ -41,7 +41,7 @@ function submenu(parent, childdata) {
   for (item of childdata) {
     var line = document.createElement("li");
     line.className = item.submenu ? "nav-item submenu" : "nav-item";
-    line.innerHTML = linkHref(item.link, item.title);
+    line.innerHTML = '<H2>' + linkHref(item.link, item.title) + '</H2>';
 
     if (item.submenu) {
       submenuId.appendChild(line);
@@ -57,7 +57,7 @@ function createLink(data) {
   for (navLink of data) {
     var line = document.createElement("li");
     line.className = navLink.submenu ? "nav-item submenu" : "nav-item";
-    line.innerHTML = linkHref(navLink.link, navLink.title);
+    line.innerHTML = '<H1>' + linkHref(navLink.link, navLink.title) + '</H1>';
 
     if (navLink.submenu) {
       //submenu(navLink, navLink.submenu);
