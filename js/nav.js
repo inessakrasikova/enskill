@@ -73,7 +73,7 @@ function createLink(data) {
 /**
  * Подгрузка JSON из файла
  */
-fetch("./data.json")
+fetch("./json/data.json")
   .then((response) => {
     return response.json();
   })

@@ -14,7 +14,7 @@ function selectTheme() {
       /**
        * Подгрузка JSON из файла
        */
-      fetch("words.json")
+      fetch("./json/words.json")
         .then((response) => {
           return response.json();
         })
