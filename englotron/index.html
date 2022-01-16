@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Англотрон</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/star.png" type="image/png">
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="info-wrap non-visible">
+			<div class="lives">
+				<div class="star"></div>
+				<div class="star"></div>
+				<div class="star"></div>
+				<div class="star"></div>
+				<div class="star"></div>
+			</div>
+			<div class="result"></div>			
+		</div>
+
+		<div class="question non-visible "></div>
+		<div class="answer-wrap">
+			<div class="answer non-visible "></div>			
+		</div>
+
+		<div class="btn-conteiner">
+			<div class="btn">Начать</div>			
+		</div>
+
+		<div class="variants"></div>
+	
+	</div>
+
+	<div class="overlay">
+		<div class="modal-wrap animation">
+			<p id="error-title">Ошибка!</p><br>
+			<p id="modal-ans"></p>
+			<div class="modal-close">&times;</div>
+		</div>
+	</div>
+
+	<script src="js/scrypt.js"></script>
+	<script src="js/generator.js"></script>	
+
+</body>
+</html>
