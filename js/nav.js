@@ -3,7 +3,7 @@ var nav = document.getElementById("navigation");
  * Формирование ссылок на пункты меню
  */
 function linkHref(link, name) {
-  return `<a class="nav-link" href="#" type="button" data-theme="${link}">${name}</a>`;
+  return `<H1><a class="nav-link" href="#" type="button" data-theme="${link}">${name}</a></H1>`;
 }
 
 function subsubmenu(parent, childdata) {
@@ -16,7 +16,7 @@ function subsubmenu(parent, childdata) {
 
   for (item of childdata) {
     var line = document.createElement("li");
-    line.className = item.submenu ? "nav-item submenu" : "nav-item";
+    line.className = item.submenu ? "opened-for-codepen" : "nav-item";
     line.innerHTML = linkHref(item.link, item.title);
 
     if (item.submenu) {

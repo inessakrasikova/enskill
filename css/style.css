@@ -9,36 +9,36 @@ body{
     position: relative;
     max-width: 200px;
 }
-.nav-item a{
-    display: block;
-    z-index: 100;
-    background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
-    -webkit-background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
-    background-size: 400% 400%;
-    -webkit-background-size: 400% 400%;
-    animation: gradient 5s infinite;
-    -webkit-animation: gradient 5s infinite;
-    color: rgb(255, 255, 255);
-    padding: 20px 50px;
-    text-decoration: none;
-    border: 1px solid rgb(0, 0, 0);
-    margin-top: -1px;
-    max-width: 200px;
-}
-nav ul > .nav-item:first-child a{
-    margin-top: 0px;
-}
-.submenu > ul{
-    display: none;
-    position: absolute;
-    left: 100%;
-    margin-left: -1px;
-    top: 0;
-    width: 200px;
-}
-.nav-item.submenu:hover > ul{
-    display: block;
-}
+/*.nav-item a{*/
+/*    display: block;*/
+/*    z-index: 100;*/
+/*    background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);*/
+/*    -webkit-background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);*/
+/*    background-size: 400% 400%;*/
+/*    -webkit-background-size: 400% 400%;*/
+/*    animation: gradient 5s infinite;*/
+/*    -webkit-animation: gradient 5s infinite;*/
+/*    color: rgb(255, 255, 255);*/
+/*    padding: 20px 50px;*/
+/*    text-decoration: none;*/
+/*    border: 1px solid rgb(0, 0, 0);*/
+/*    margin-top: -1px;*/
+/*    max-width: 200px;*/
+/*}*/
+/*nav ul > .nav-item:first-child a{*/
+/*    margin-top: 0px;*/
+/*}*/
+/*.submenu > ul{*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    left: 100%;*/
+/*    margin-left: -1px;*/
+/*    top: 0;*/
+/*    width: 200px;*/
+/*}*/
+/*.nav-item.submenu:hover > ul{*/
+/*    display: block;*/
+/*}*/
 
 div.word {
     font-family: 'Times New Roman', Times, serif;
@@ -46,18 +46,18 @@ div.word {
     margin-top: 12%;
 }
 
-a {
-    color: #000080; /* Цвет обычной ссылки */
-    padding: 2px; /* Поля вокруг текста */
-}
-a:visited {
-    color: #800080; /* Цвет посещенной ссылки */
-}
-a:hover {
-    text-decoration: none; /* Убираем подчеркивание */
-    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
-    background: #e24486; /* Цвет фона */
-}
+/*a {*/
+/*    color: #000080; !* Цвет обычной ссылки *!*/
+/*    padding: 2px; !* Поля вокруг текста *!*/
+/*}*/
+/*a:visited {*/
+/*    color: #800080; !* Цвет посещенной ссылки *!*/
+/*}*/
+/*a:hover {*/
+/*    text-decoration: none; !* Убираем подчеркивание *!*/
+/*    color: #fff; !* Цвет ссылки при наведении на нее курсора мыши *!*/
+/*    background: #e24486; !* Цвет фона *!*/
+/*}*/
 
 ul {
     margin: 0;
