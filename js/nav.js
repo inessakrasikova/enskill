@@ -7,10 +7,11 @@ function linkHref(link, name) {
 }
 
 function subsubmenu(parent, childdata) {
+  console.log('subsubmenu')
   var submenumainlink = document.getElementById("submenu-" + parent.keyName);
   var submenu = document.createElement("ul");
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
-
+  console.log(submenu)
   submenumainlink.appendChild(submenu);
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
@@ -31,11 +32,13 @@ function subsubmenu(parent, childdata) {
 }
 
 function submenu(parent, childdata) {
+  console.log('subsubmenu')
   var submenumainlink = document.getElementById("submenu-" + parent.keyName);
   var submenu = document.createElement("ul");
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
 
   submenumainlink.appendChild(submenu);
+  console.log(submenu)
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
 
@@ -55,10 +58,12 @@ function submenu(parent, childdata) {
 }
 
 function createLink(data) {
+  console.log('theme')
   for (navLink of data) {
     var line = document.createElement("li");
     line.className = navLink.submenu ? "nav-item submenu" : "nav-item";
     line.innerHTML = linkHref(navLink.link, navLink.title);
+    console.log(line)
     if (navLink.submenu) {
       //submenu(navLink, navLink.submenu);
       line.setAttribute("id", "submenu-" + navLink.keyName);
