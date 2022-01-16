@@ -1,212 +1,57 @@
 [
   {
-    "title": "Game",
-    "link": "games"
-  },
-  {
-    "title": "Community",
-    "link": "community",
-    "keyName": "community",
+    "title": "Социум",
+    "link": "Society",
+    "keyName": "society",
     "submenu": [
       {
-        "title": "Time",
-        "link": "time",
-        "keyName": "media2",
+        "title": "Семья",
+        "link": "family",
+        "keyName": "family",
+        "submenu": [
+          {
+            "title": "Члены семь",
+            "link": "membersSeven"
+          },
+          {
+            "title": "Родственники",
+            "link": "relatives"
+          }
+        ]
+      },
+      {
+        "title": "Общество",
+        "link": "community",
+        "keyName": "community",
+        "submenu": [
+          {
+            "title": "Друзья",
+            "link": "friends"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Повседневное",
+    "link": "Everyday",
+    "keyName": "everyday",
+    "submenu": [
+      {
+        "title": "Единицы измерения",
+        "link": "units",
+        "keyName": "units",
         "submenu": [
           {
             "title": "Дни недели",
-            "link": "days",
-            "days": [
-              {
-                "ru": [
-                  "Понедельник",
-                  "Вторник",
-                  "Среда",
-                  "Четверг",
-                  "Пятница",
-                  "Суббота",
-                  "Воскресение"
-                ],
-                "en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-              }
-            ]
+            "link": "days"
           },
           {
             "title": "Месяцы года",
-            "link": "months",
-            "months": [
-              {
-                "ru": [
-                  "Январь",
-                  "Февраль",
-                  "Март",
-                  "Апрель",
-                  "Май",
-                  "Июнь",
-                  "Июль",
-                  "Август",
-                  "Сентябрь",
-                  "Октябрь",
-                  "Ноябрь",
-                  "Декабрь"
-                ],
-                "en": [
-                  "January",
-                  "February",
-                  "March",
-                  "April",
-                  "May",
-                  "June",
-                  "July",
-                  "August",
-                  "September",
-                  "October",
-                  "November",
-                  "December"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Планеты",
-            "link": "planets",
-            "months": [
-              {
-                "ru": [
-                  "Солнце",
-                  "Меркурий",
-                  "Венера",
-                  "Земля",
-                  "Луна",
-                  "Марс",
-                  "Юпитер",
-                  "Сатурн",
-                  "Уран",
-                  "Нептун",
-                  "Плутон"
-                ],
-                "en": [
-                  "Sun",
-                  "Mercury",
-                  "Venus",
-                  "Earth",
-                  "Moon",
-                  "Mars",
-                  "Jupiter",
-                  "Saturn",
-                  "Uranus",
-                  "Neptune",
-                  "Pluto"
-                ]
-              }
-            ]
+            "link": "months"
           }
         ]
-      },
-      {
-        "title": "Gameplay",
-        "link": "games"
-      },
-      {
-        "title": "Classes",
-        "link": "community",
-        "keyName": "classes2",
-        "submenu": [
-          {
-            "title": "Barbarian",
-            "link": "barbarian"
-          },
-          {
-            "title": "Demon Hunter",
-            "link": "demon-hunter"
-          },
-          {
-            "title": "Monk",
-            "link": "monk"
-          },
-          {
-            "title": "Witch Doctor",
-            "link": "witch-doctor"
-          }
-        ]
-      },
-      {
-        "title": "Beta",
-        "link": "beta"
-      },
-      {
-        "title": "Support",
-        "link": "support"
       }
     ]
-  },
-  {
-    "title": "Forums",
-    "link": "forums",
-    "keyName": "forums",
-    "submenu": [
-      {
-        "title": "Media",
-        "link": "media",
-        "keyName": "media",
-        "submenu": [
-          {
-            "title": "Barbarian",
-            "link": "barbarian"
-          },
-          {
-            "title": "Demon Hunter",
-            "link": "demon-hunter"
-          },
-          {
-            "title": "Monk",
-            "link": "monk"
-          },
-          {
-            "title": "Witch Doctor",
-            "link": "witch-doctor"
-          }
-        ]
-      },
-      {
-        "title": "Gameplay",
-        "link": "games"
-      },
-      {
-        "title": "Classes",
-        "link": "community",
-        "keyName": "classes",
-        "submenu": [
-          {
-            "title": "Barbarian",
-            "link": "barbarian"
-          },
-          {
-            "title": "Demon Hunter",
-            "link": "demon-hunter"
-          },
-          {
-            "title": "Monk",
-            "link": "monk"
-          },
-          {
-            "title": "Witch Doctor",
-            "link": "witch-doctor"
-          }
-        ]
-      },
-      {
-        "title": "Beta",
-        "link": "beta"
-      },
-      {
-        "title": "Support",
-        "link": "support"
-      }
-    ]
-  },
-  {
-    "title": "Services",
-    "link": "services"
   }
 ]
