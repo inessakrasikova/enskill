@@ -1,5 +1,5 @@
-# [Enskill](https://aruytehno.github.io/english/)
-### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/english/englotron/index.html)
+# [Enskill](https://aruytehno.github.io/enskill/)
+### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/enskill/englotron/index.html)
 * Сайт разработан для тренировки правописания и запоминания слов.
 * Каждая группа состоит не более чем из 12 слов.
 * Новое слово пояляется после правильного ввода текущего.
