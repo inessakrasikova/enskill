@@ -141,7 +141,7 @@ var arrAns = [],
 
 window.onload = function() {
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'js/dataAns.json');
+	xhr.open('GET', 'jsprj/dataAns.json');
 	xhr.send();
 	var result = [];
 	xhr.addEventListener('load', () => {
@@ -157,7 +157,7 @@ window.onload = function() {
 	});
 
 	var xhr2 = new XMLHttpRequest();
-	xhr2.open('GET', 'js/dataQwest.json');
+	xhr2.open('GET', 'jsprj/dataQwest.json');
 	xhr2.send();
 	var result = [];
 	xhr2.addEventListener('load', () => {
