@@ -1,14 +1,14 @@
-*{
-    box-sizing: content-box;
-}
-body{
-    background-color: #2F2F31;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-.nav-item{
-    position: relative;
-    max-width: 200px;
-}
+/**{*/
+/*    box-sizing: content-box;*/
+/*}*/
+/*body{*/
+/*    background-color: #2F2F31;*/
+/*    font-family: 'Open Sans Condensed', sans-serif;*/
+/*}*/
+/*.nav-item{*/
+/*    position: relative;*/
+/*    max-width: 200px;*/
+/*}*/
 /*.nav-item a{*/
 /*    display: block;*/
 /*    z-index: 100;*/
@@ -59,8 +59,8 @@ div.word {
 /*    background: #e24486; !* Цвет фона *!*/
 /*}*/
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+/*ul {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*}*/

@@ -10,14 +10,15 @@ function subsubmenu(parent, childdata) {
   var submenumainlink = document.getElementById("submenu-" + parent.keyName);
   var submenu = document.createElement("ul");
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
+
   submenumainlink.appendChild(submenu);
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
 
   for (item of childdata) {
     var line = document.createElement("li");
-    line.className = item.submenu ? "opened-for-codepen" : "nav-item";
-    line.innerHTML = '<H3>' + linkHref(item.link, item.title) + '</H3>';
+    line.className = item.submenu ? "nav-item submenu" : "nav-item";
+    line.innerHTML = linkHref(item.link, item.title);
 
     if (item.submenu) {
       submenuId.appendChild(line);
@@ -41,7 +42,7 @@ function submenu(parent, childdata) {
   for (item of childdata) {
     var line = document.createElement("li");
     line.className = item.submenu ? "nav-item submenu" : "nav-item";
-    line.innerHTML = '<H2>' + linkHref(item.link, item.title) + '</H2>';
+    line.innerHTML = linkHref(item.link, item.title);
 
     if (item.submenu) {
       submenuId.appendChild(line);
@@ -57,8 +58,7 @@ function createLink(data) {
   for (navLink of data) {
     var line = document.createElement("li");
     line.className = navLink.submenu ? "nav-item submenu" : "nav-item";
-    line.innerHTML = '<H1>' + linkHref(navLink.link, navLink.title) + '</H1>';
-
+    line.innerHTML = linkHref(navLink.link, navLink.title);
     if (navLink.submenu) {
       //submenu(navLink, navLink.submenu);
       line.setAttribute("id", "submenu-" + navLink.keyName);
@@ -68,7 +68,6 @@ function createLink(data) {
       nav.appendChild(line);
     }
   }
-  console.log(nav)
 }
 
 /**
