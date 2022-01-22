@@ -115,7 +115,7 @@ body {
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
-	background: url(../img/star.png) 100% 100% no-repeat;
+	background: url(../../img/star.png) 100% 100% no-repeat;
 	background-size: cover;
 	display: inline-block;
 }
