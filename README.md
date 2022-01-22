@@ -1,6 +1,6 @@
 ![alt text](img/enskill.png "Title")
 # [Enskill](https://aruytehno.github.io/enskill/)
-### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/enskill/englotron/index.html)
+### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/enskill/englotron.html)
 * Сайт разработан для тренировки правописания и запоминания слов.
 * Каждая группа состоит не более чем из 12 слов.
 * Новое слово пояляется после правильного ввода текущего.
@@ -140,6 +140,5 @@
 - Цифра - форма личного местоимения (Я, Ты, Мы, Они, Он, Она)
 - вспомогательный файл generator.js для расширения базы
 ---
-### [демо ➫](https://avavax.ru/src/1008/)
 
-![Screenshot](screenshot.jpg)
+![Screenshot](img/screenshot.jpg)
