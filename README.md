@@ -7,9 +7,10 @@
 * Подсказка появляется после трёх неверных попыток ввода.
 
 ## Дополнительные ресурсы:
-* [paragraph77](https://paragraph77.net/)
-* [eslfast](https://www.eslfast.com/)
-* [texthandler](https://ru.texthandler.com/text-tools/letter-case-converter/)
+* [Paragraph77.net](https://paragraph77.net/)
+* [Eslfast.com](https://www.eslfast.com/)
+* [Texthandler.com](https://ru.texthandler.com/text-tools/letter-case-converter/)
+* [Bootstrap 5.1.1 Navbar Multi Level and Mega Menu](https://codepen.io/typo3-freelancer/pen/poEvyGj)
 
 ## Инструменты для работы:
 * [jsoneditoronline](https://jsoneditoronline.org/#)
