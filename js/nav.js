@@ -9,8 +9,20 @@ function linkHref1(link, name) {
 function linkHref2(link, name) {
   return `<a class="dropdown-item dropdown-toggle" href="#">${name}</a>`;
 }
+
+/**
+ * Для всех подменю на конечные элементы
+ * @param link
+ * @param name
+ * @returns {string}
+ */
+
 function linkHref(link, name) {
   return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="${link}">${name}</a>`;
+}
+
+function linkHref(link, name) {
+  return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" data-theme="${link}">${name}</a>`;
 }
 
 /**
@@ -81,7 +93,7 @@ function createLink(data) {
   for (navLink of data) {
     var line = document.createElement("li");
     if (navLink.submenu) {
-      line.className = navLink.submenu ? "dropstart" : "nav-item";
+      line.className = navLink.submenu ? "dropend" : "nav-item";
       line.innerHTML = linkHref(navLink.link, navLink.title);
       line.setAttribute("id", "submenu-" + navLink.keyName);
       nav.appendChild(line);
