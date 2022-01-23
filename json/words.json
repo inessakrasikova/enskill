@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "planets": [
+  "planetsOfTheSolarSystem": [
     {
       "ru": [
         "Солнце",
@@ -86,6 +86,53 @@
         "Uranus",
         "Neptune",
         "Pluto"
+      ]
+    }
+  ],
+  "cityObjects": [
+    {
+      "ru": [
+        "отель",
+        "полиция",
+        "больница",
+        "церковь",
+        "рынок",
+        "ресторан",
+        "цирк",
+        "театр",
+        "кинотеатр"
+      ]
+    },
+    {
+      "en": [
+        "hotel",
+        "police",
+        "hospital",
+        "church",
+        "market",
+        "restaurant",
+        "circus",
+        "cinema"
+      ]
+    }
+  ],
+  "urbanTransport": [
+    {
+      "ru": [
+        "Bus",
+        "Метро",
+        "Такси",
+        "Грузовик",
+        "Трамвай"
+      ]
+    },
+    {
+      "en": [
+        "Автобус",
+        "Metro",
+        "Taxi",
+        "Truck",
+        "Tram"
       ]
     }
   ]

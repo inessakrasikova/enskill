@@ -1,16 +1,6 @@
 [
   {
-    "title": "Тема 1",
-    "link": "Theme 1",
-    "keyName": "society"
-      },
-  {
-    "title": "Тема 2",
-    "link": "Theme 2",
-    "keyName": "society"
-  },
-  {
-    "title": "Тема 3",
+    "title": "Социум",
     "link": "Society",
     "keyName": "society",
     "submenu": [
@@ -59,6 +49,43 @@
           {
             "title": "Месяцы года",
             "link": "months"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Мир",
+    "link": "World",
+    "keyName": "world",
+    "submenu": [
+      {
+        "title": "Город",
+        "link": "city",
+        "keyName": "city",
+        "submenu": [
+          {
+            "title": "Городские объекты",
+            "link": "cityObjects"
+          },
+          {
+            "title": "Городской транспорт",
+            "link": "urbanTransport"
+          }
+        ]
+      },
+      {
+        "title": "Космос",
+        "link": "space",
+        "keyName": "space",
+        "submenu": [
+          {
+            "title": "Планеты Солнечной системы",
+            "link": "planetsOfTheSolarSystem"
+          },
+          {
+            "title": "Знаки зодиака",
+            "link": "zodiacSigns"
           }
         ]
       }
