@@ -56,9 +56,9 @@ function showWord() {
 }
 
 function checkWord() {
-    var translate = document.getElementById("translate").value;
+    var translate = document.getElementById("translate").value.trim();
 
-    if (translate == outputMassive[wordNumber]) {
+    if (translate === outputMassive[wordNumber]) {
         document.getElementById("translate").value = "";
         document.getElementById("translate").placeholder = "Write your translation";
         numberOfMistakes = 0;
@@ -68,12 +68,12 @@ function checkWord() {
         numberOfMistakes++;
     }
 
-    if (numberOfMistakes == 3) {
+    if (numberOfMistakes === 6) {
         document.getElementById("translate").placeholder = outputMassive[wordNumber];
         numberOfMistakes = 0;
     }
 
-    if (wordNumber == outputMassive.length) {
+    if (wordNumber === outputMassive.length) {
         wordNumber = 0;
     }
     showWord();
