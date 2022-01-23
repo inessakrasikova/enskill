@@ -1,32 +1,30 @@
-<ul class="dropdown-menu shadow show" id="navigation" data-bs-popper="none">
-    <li class="nav-item submenu" id="submenu-society"><a class="dropdown-item" href="#" data-theme="Society">Социум</a>
+<ul class="dropdown-menu shadow show" id="navigation">
+    <li><a class="dropdown-item" href="#">Тема 1</a></li>
+    <li><a class="dropdown-item" href="#">Тема 2</a></li>
+    <li class="dropstart" id="submenu-society">
+        <a class="dropdown-item" data-theme="Society">Тема 3</a>
         <ul class="dropdown-menu shadow" id="submenu-society-menu">
-            <li class="dropdown-item" id="submenu-family"><a class="dropdown-item" href="#"
-                                                             data-theme="family">Семья</a>
-                <ul class="dropdown-menu dropdown-submenu shadow" id="submenu-family-menu">
-                    <li class="dropdown-menu shadow"><a class="dropdown-item" href="#" data-theme="membersSeven">Члены
-                        семь</a></li>
-                    <li class="dropdown-menu shadow"><a class="dropdown-item" href="#" data-theme="relatives">Родственники</a>
-                    </li>
+            <li class="nav-item submenu" id="submenu-family"><a class="dropdown-item" data-theme="family">Семья</a>
+                <ul class="dropdown-menu shadow" id="submenu-family-menu">
+                    <li class="nav-item"><a class="dropdown-item" data-theme="membersSeven">Члены семь</a></li>
+                    <li class="nav-item"><a class="dropdown-item" data-theme="relatives">Родственники</a></li>
                 </ul>
             </li>
-            <li class="dropdown-item" id="submenu-community"><a class="dropdown-item" href="#" data-theme="community">Общество</a>
-                <ul class="dropdown-menu dropdown-submenu shadow" id="submenu-community-menu">
-                    <li class="dropdown-menu shadow"><a class="dropdown-item" href="#" data-theme="friends">Друзья</a>
-                    </li>
+            <li class="nav-item submenu" id="submenu-community"><a class="dropdown-item"
+                                                                   data-theme="community">Общество</a>
+                <ul class="dropdown-menu shadow" id="submenu-community-menu">
+                    <li class="nav-item"><a class="dropdown-item" data-theme="friends">Друзья</a></li>
                 </ul>
             </li>
         </ul>
     </li>
-    <li class="nav-item submenu" id="submenu-everyday"><a class="dropdown-item" href="#" data-theme="Everyday">Повседневное</a>
+    <li class="dropstart" id="submenu-everyday"><a class="dropdown-item" data-theme="Everyday">Повседневное</a>
         <ul class="dropdown-menu shadow" id="submenu-everyday-menu">
-            <li class="dropdown-item" id="submenu-units"><a class="dropdown-item" href="#" data-theme="units">Единицы
+            <li class="nav-item submenu" id="submenu-units"><a class="dropdown-item" data-theme="units">Единицы
                 измерения</a>
-                <ul class="dropdown-menu dropdown-submenu shadow" id="submenu-units-menu">
-                    <li class="dropdown-menu shadow"><a class="dropdown-item" href="#" data-theme="days">Дни недели</a>
-                    </li>
-                    <li class="dropdown-menu shadow"><a class="dropdown-item" href="#" data-theme="months">Месяцы
-                        года</a></li>
+                <ul class="dropdown-menu shadow" id="submenu-units-menu">
+                    <li class="nav-item"><a class="dropdown-item" data-theme="days">Дни недели</a></li>
+                    <li class="nav-item"><a class="dropdown-item" data-theme="months">Месяцы года</a></li>
                 </ul>
             </li>
         </ul>

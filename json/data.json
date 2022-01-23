@@ -1,6 +1,16 @@
 [
   {
-    "title": "Социум",
+    "title": "Тема 1",
+    "link": "Theme 1",
+    "keyName": "society"
+      },
+  {
+    "title": "Тема 2",
+    "link": "Theme 2",
+    "keyName": "society"
+  },
+  {
+    "title": "Тема 3",
     "link": "Society",
     "keyName": "society",
     "submenu": [
