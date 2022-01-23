@@ -6,30 +6,38 @@
 * Каждая группа состоит не более чем из 12 слов, для того что бы соблюдалась цикличность нескольких повторений
 
 
-## Дополнительные ресурсы:
-* [Paragraph77.net](https://paragraph77.net/)
-* [Eslfast.com](https://www.eslfast.com/)
-* [Texthandler.com](https://ru.texthandler.com/text-tools/letter-case-converter/)
-* [Bootstrap 5.1.1 Navbar Multi Level and Mega Menu](https://codepen.io/typo3-freelancer/pen/poEvyGj)
-* [Footer](https://codepen.io/idesignsmf/pen/WgjXeo)
-
-## Инструменты для работы:
-* [jsoneditoronline](https://jsoneditoronline.org/#)
-
-# Проблемы проекта, которые необходимо решить: 
-## Технические:
-- убрать пробелы с краев введённой фразы или слова ✅
-- Убрать зависимость от вводимого регистра при проверке слов ✅
-- Подключение локальных библиотек Bootstrap для использования без интернета
-- Поправить иконки на футере
-
-## Методические:
+---
+## Проблемы проекта, которые необходимо решить: 
+#### Методические:
 * Настроить локальный профиль пользователя в куки для сохранения статистики
 * Настроить систему очков при изучении наборов слов
 * По изученным словам предлагать готовые фразы
 
-# Терминология, тесты и прочее:
-## Сертификаты:
+### Технические:
+- убрать пробелы с краев введённой фразы или слова ✅
+- Убрать зависимость от вводимого регистра при проверке слов ✅
+- Подключение локальных библиотек Bootstrap для использования без интернета
+- Поправить иконки на футере
+- Настроить автоматическое закрывание меню при выборе темы в тренажёре
+---
+
+### Дополнительные ресурсы для изучения с которых можно почерпнуть идеи:
+* [Paragraph77.net](https://paragraph77.net/)
+* [Eslfast.com](https://www.eslfast.com/)
+
+
+#### Инструменты для работы:
+* [Texthandler.com](https://ru.texthandler.com/text-tools/letter-case-converter/)
+* [Bootstrap 5.1.1 Navbar Multi Level and Mega Menu](https://codepen.io/typo3-freelancer/pen/poEvyGj)
+* [jsoneditoronline](https://jsoneditoronline.org/#)
+* [Footer](https://codepen.io/idesignsmf/pen/WgjXeo)
+
+---
+### Терминология, тесты и прочее:
+
+<details><summary>Сертификаты</summary>
+<p>
+
 - CEFR — Common European Framework of Reference for Languages (Написать переводы)
 - IELTS — International English Language Testing System
 - TOEFL — Test of English Language as a Foreign Language
@@ -40,8 +48,12 @@
 - FCE — First Certificate of English
 - PET — Preliminary English Test
 - KET — Key English Test
+</p>
+</details>
 
-## Уровни владения английским
+<details><summary>Уровни владения английским</summary>
+<p>
+
 - Basic (базовый);
 - Intermediate (средний);
 - Advanced (продвинутый);
@@ -57,8 +69,13 @@
   * C1 — Advanced
   * C2 — Proficiency
 
+</p>
+</details>
 
-# Темы:
+<details><summary>Темы для топиков</summary>
+<p>
+
+
 * Тема (1)
     * Топики (2)
         * Топик 1
@@ -133,11 +150,16 @@
 * Работа (1)
     * Профессии (2)
 
+</p>
+</details>
+
+<details><summary>Englotron</summary>
+<p>
 
 # Englotron
 Тренажёр для изучения английского языка
 ### [Вспомогательная программа для наработки лексического минимума по методу Дмитрия Петрова](https://aruytehno.github.io/enskill/englotron.html)
-### Особенности
+ Особенности
 ---
 - включает 38 правильных и 34 неправильных глагола
 - применение каждого глагола представлено в форме Simple, будущего, настоящего и прошедшего времени; вопросительной, отрицательной и утвердительной форме; для нескольких лиц
@@ -146,7 +168,7 @@
 - адаптация для мобильных устройств
 - возможность расширения
 ---
-### Особенности
+ Особенности
 ---
 - база вопросов и ответов в формате json
 - пример формата указателя "futQ1"
@@ -157,3 +179,5 @@
 ---
 
 ![Screenshot](img/screenshot.jpg)
+</p>
+</details>
