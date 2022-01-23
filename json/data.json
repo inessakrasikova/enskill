@@ -6,8 +6,8 @@
     "submenu": [
       {
         "title": "Семья",
-        "link": "family",
-        "keyName": "family",
+        "link": "familyTopic",
+        "keyName": "familyTopic",
         "submenu": [
           {
             "title": "Семья",
@@ -28,8 +28,8 @@
     "submenu": [
       {
         "title": "Единицы измерения",
-        "link": "units",
-        "keyName": "units",
+        "link": "unitsTopic",
+        "keyName": "unitsTopic",
         "submenu": [
           {
             "title": "Дни недели",
@@ -54,8 +54,8 @@
     "submenu": [
       {
         "title": "Город",
-        "link": "city",
-        "keyName": "city",
+        "link": "cityTopic",
+        "keyName": "cityTopic",
         "submenu": [
           {
             "title": "Городские объекты",
