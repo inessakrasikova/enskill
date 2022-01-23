@@ -9,6 +9,8 @@
 ## Дополнительные ресурсы:
 * [paragraph77](https://paragraph77.net/)
 * [eslfast](https://www.eslfast.com/)
+* https://codepen.io/typo3-freelancer/pen/poEvyGj
+* https://codepen.io/idesignsmf/pen/WgjXeo
 ## Инструменты для работы:
 * [jsoneditoronline](https://jsoneditoronline.org/#)
 
