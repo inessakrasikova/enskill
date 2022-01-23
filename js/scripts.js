@@ -58,7 +58,7 @@ function showWord() {
 function checkWord() {
     var translate = document.getElementById("translate").value.trim();
 
-    if (translate === outputMassive[wordNumber]) {
+    if (translate.toUpperCase() === outputMassive[wordNumber].toUpperCase()) {
         document.getElementById("translate").value = "";
         document.getElementById("translate").placeholder = "Write your translation";
         numberOfMistakes = 0;
