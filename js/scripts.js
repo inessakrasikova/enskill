@@ -13,7 +13,7 @@ var numberOfMistakes = 0;
 var wordNumber = 0;
 
 function selectTheme() {
-    var navLinks = document.querySelectorAll(".nav-link");
+    var navLinks = document.querySelectorAll(".dropdown-item");
 
     navLinks.forEach((navLink) => {
         navLink.addEventListener("click", function (e) {

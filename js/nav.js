@@ -3,7 +3,7 @@ var nav = document.getElementById("navigation");
  * Формирование ссылок на пункты меню
  */
 function linkHref1(link, name) {
-  return `<a class="dropdown-item" nameMethod="linkHref1" href="#">${name}</a>`;
+  return `<a class="dropdown-item" href="#" type="button" nameMethod="linkHref1" data-theme="${link}">${name}</a>`;
 }
 
 function linkHref2(link, name) {
