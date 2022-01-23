@@ -49,6 +49,10 @@
           {
             "title": "Месяцы года",
             "link": "months"
+          },
+          {
+            "title": "Знаки зодиака",
+            "link": "zodiacSigns"
           }
         ]
       }
@@ -82,10 +86,6 @@
           {
             "title": "Планеты Солнечной системы",
             "link": "planetsOfTheSolarSystem"
-          },
-          {
-            "title": "Знаки зодиака",
-            "link": "zodiacSigns"
           }
         ]
       }
