@@ -13,41 +13,44 @@ var numberOfMistakes = 0;
 var wordNumber = 0;
 
 function selectTheme() {
-    var navLinks = document.querySelectorAll(".dropdown-item");
+    let navLinks = document.querySelectorAll(".dropdown-item");
+    const menuToggle = document.getElementById("navigation");
+    const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
 
     navLinks.forEach((navLink) => {
-        navLink.addEventListener("click", function (e) {
-            var theme = navLink.dataset.theme;
+      navLink.addEventListener("click", function (e) {
+        let theme = navLink.dataset.theme;
 
-            /**
-             * Подгрузка JSON из файла
-             */
-            fetch("./json/words.json")
-                .then((response) => {
-                    return response.json();
-                })
-                .then((words) => {
-                    if (words[theme] !== undefined && words[theme].length > 0) {
-                        console.log(`words[${theme}]: `, words[theme]);
-                        inputMassive = words[theme][0]["ru"];
-                        outputMassive = words[theme][1]["en"];
+        /**
+         * Подгрузка JSON из файла
+         */
+        fetch("json/words.json")
+          .then((response) => {
+            return response.json();
+          })
+          .then((words) => {
+            if (words[theme] !== undefined && words[theme].length > 0) {
+              inputMassive = words[theme][0]["ru"];
+              outputMassive = words[theme][1]["en"];
+              bsCollapse.toggle();
 
-                        console.log("inputMassive: ", inputMassive);
-                        console.log("outputMassive: ", outputMassive);
-                    } else {
-                        console.log(`words[${theme}] не существует`);
-                    }
-                })
-                .then(() => {
-                    numberOfMistakes = 0;
-                    wordNumber = 0;
-                    showWord();
-                })
-                .catch((err) => {
-                    // Do something for an error here
-                    console.log(err);
-                });
-        });
+              document.querySelectorAll(".dropdown-toggle").forEach((dropdownToggle) => {
+                dropdownToggle.classList.remove("show");
+              });
+
+              document.querySelectorAll(".dropdown-menu").forEach((dropdownMenu) => {
+                dropdownMenu.classList.remove("show");
+              });
+
+              numberOfMistakes = 0;
+              wordNumber = 0;
+              showWord();
+            }
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      });
     });
 }
 
