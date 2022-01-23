@@ -3,14 +3,14 @@ var nav = document.getElementById("navigation");
  * Формирование ссылок на пункты меню
  */
 function linkHref(link, name) {
-  return `<a class="nav-link" href="#" type="button" data-theme="${link}">${name}</a>`;
+  return `<a class="dropdown-item" href="#" data-theme="${link}">${name}</a>`;
 }
 
 function subsubmenu(parent, childdata) {
   var submenumainlink = document.getElementById("submenu-" + parent.keyName);
   var submenu = document.createElement("ul");
+  submenu.className = "dropdown-menu dropdown-submenu shadow";
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
-
   submenumainlink.appendChild(submenu);
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
@@ -33,6 +33,7 @@ function subsubmenu(parent, childdata) {
 function submenu(parent, childdata) {
   var submenumainlink = document.getElementById("submenu-" + parent.keyName);
   var submenu = document.createElement("ul");
+  submenu.className = "dropdown-menu shadow";
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
 
   submenumainlink.appendChild(submenu);
