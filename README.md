@@ -9,8 +9,8 @@
 ## Дополнительные ресурсы:
 * [paragraph77](https://paragraph77.net/)
 * [eslfast](https://www.eslfast.com/)
-* https://codepen.io/typo3-freelancer/pen/poEvyGj
-* https://codepen.io/idesignsmf/pen/WgjXeo
+* [texthandler](https://ru.texthandler.com/text-tools/letter-case-converter/)
+
 ## Инструменты для работы:
 * [jsoneditoronline](https://jsoneditoronline.org/#)
 
@@ -61,14 +61,23 @@
         * Топик 3
 * Социум (1)
     * Семья (2)
-        * Члены семьи
-        * Родственники
+        * Семья ✅
+        * Родственники ✅
     * Работа (2)
         * Коллеги
     * Знакомые (2)
+* Мир (1)
+  * Город (2)
+      * Городские объекты ✅
+      * Городской транспорт ✅
+  * Космос (2)
+      * Планеты солнечной системы ✅
+      * Созвездия
+      * Космические объекты
 * Повседневное (1)
     * Единицы измерения (2)
         * Меры длинны
+        * Знаки зодиака ✅
         * Дни недели ✅
         * Месяцы года ✅
         * Меры температуры

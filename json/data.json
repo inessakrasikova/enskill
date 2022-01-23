@@ -10,23 +10,12 @@
         "keyName": "family",
         "submenu": [
           {
-            "title": "Члены семь",
-            "link": "membersSeven"
+            "title": "Семья",
+            "link": "family"
           },
           {
             "title": "Родственники",
             "link": "relatives"
-          }
-        ]
-      },
-      {
-        "title": "Общество",
-        "link": "community",
-        "keyName": "community",
-        "submenu": [
-          {
-            "title": "Друзья",
-            "link": "friends"
           }
         ]
       }
