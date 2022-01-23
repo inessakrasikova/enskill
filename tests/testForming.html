@@ -1,37 +1,41 @@
-<ul class="dropdown-menu shadow show" id="navigation">
-    <li><a class="dropdown-item" href="#">Тема 1</a></li>
-    <li><a class="dropdown-item" href="#">Тема 2</a></li>
-    <li class="dropend" id="submenu-society">
-        <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="Society">Тема 3</a>
-        <ul class="dropdown-menu shadow" id="submenu-society-menu">
-            <li class="nav-item submenu" id="submenu-family">
-                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="family">Семья</a>
-                <ul class="dropdown-menu shadow" id="submenu-family-menu">
-                    <li class="nav-item"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="membersSeven">Члены семь</a></li>
-                    <li class="nav-item"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="relatives">Родственники</a></li>
+<ul class="dropdown-menu shadow show" data-bs-popper="none" id="navigation">
+    <li><a class="dropdown-item" namemethod="linkHref1" href="#">Тема 1</a></li>
+    <li><a class="dropdown-item" namemethod="linkHref1" href="#">Тема 2</a></li>
+    <li class="dropend" id="submenu-society"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false" data-bs-auto-close="outside" namemethod="linkHref"
+                                                data-theme="Society">Тема 3</a>
+        <ul class="dropdown-menu shadow" id="submenu-society-menu" namemethod="Создаёт список топиков по теме">
+            <li class="nav-item submenu" id="submenu-family"><a href="#" class="dropdown-item dropdown-toggle"
+                                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                                data-bs-auto-close="outside" namemethod="linkHref"
+                                                                data-theme="family">Семья</a>
+                <ul class="dropdown-menu shadow" id="submenu-family-menu" namemethod="Создаёт элементы топика">
+                    <li class="nav-item"><a class="dropdown-item" namemethod="linkHref1" href="#">Члены семь</a></li>
+                    <li class="nav-item"><a class="dropdown-item" namemethod="linkHref1" href="#">Родственники</a></li>
                 </ul>
             </li>
             <li class="nav-item submenu" id="submenu-community"><a href="#" class="dropdown-item dropdown-toggle"
                                                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                                                   data-bs-auto-close="outside" namemethod="linkHref"
                                                                    data-theme="community">Общество</a>
-                <ul class="dropdown-menu shadow" id="submenu-community-menu">
-                    <li class="nav-item"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-expanded="false" data-theme="friends">Друзья</a></li>
+                <ul class="dropdown-menu shadow" id="submenu-community-menu" namemethod="Создаёт элементы топика">
+                    <li class="nav-item"><a class="dropdown-item" namemethod="linkHref1" href="#">Друзья</a></li>
                 </ul>
             </li>
         </ul>
     </li>
     <li class="dropend" id="submenu-everyday"><a href="#" class="dropdown-item dropdown-toggle"
-                                                 data-bs-toggle="dropdown" aria-expanded="false" data-theme="Everyday">Повседневное</a>
-        <ul class="dropdown-menu shadow" id="submenu-everyday-menu">
+                                                 data-bs-toggle="dropdown" aria-expanded="false"
+                                                 data-bs-auto-close="outside" namemethod="linkHref"
+                                                 data-theme="Everyday">Повседневное</a>
+        <ul class="dropdown-menu shadow" id="submenu-everyday-menu" namemethod="Создаёт список топиков по теме">
             <li class="nav-item submenu" id="submenu-units"><a href="#" class="dropdown-item dropdown-toggle"
                                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                               data-bs-auto-close="outside" namemethod="linkHref"
                                                                data-theme="units">Единицы измерения</a>
-                <ul class="dropdown-menu shadow" id="submenu-units-menu">
-                    <li class="nav-item"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-expanded="false" data-theme="days">Дни недели</a></li>
-                    <li class="nav-item"><a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                            aria-expanded="false" data-theme="months">Месяцы года</a></li>
+                <ul class="dropdown-menu shadow" id="submenu-units-menu" namemethod="Создаёт элементы топика">
+                    <li class="nav-item"><a class="dropdown-item" namemethod="linkHref1" href="#">Дни недели</a></li>
+                    <li class="nav-item"><a class="dropdown-item" namemethod="linkHref1" href="#">Месяцы года</a></li>
                 </ul>
             </li>
         </ul>

@@ -3,11 +3,11 @@ var nav = document.getElementById("navigation");
  * Формирование ссылок на пункты меню
  */
 function linkHref1(link, name) {
-  return `<a class="dropdown-item" href="#">${name}</a>`;
+  return `<a class="dropdown-item" nameMethod="linkHref1" href="#">${name}</a>`;
 }
 
 function linkHref2(link, name) {
-  return `<a class="dropdown-item dropdown-toggle" href="#">${name}</a>`;
+  return `<a class="dropdown-item dropdown-toggle" nameMethod="linkHref2" href="#">${name}</a>`;
 }
 
 /**
@@ -18,11 +18,11 @@ function linkHref2(link, name) {
  */
 
 function linkHref(link, name) {
-  return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-theme="${link}">${name}</a>`;
+  return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" nameMethod="linkHref" data-theme="${link}">${name}</a>`;
 }
 
-function linkHref(link, name) {
-  return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" data-theme="${link}">${name}</a>`;
+function linkHref4(link, name) {
+  return `<a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" nameMethod="linkHref4" data-theme="${link}">${name}</a>`;
 }
 
 /**
@@ -35,6 +35,7 @@ function subsubmenu(parent, childdata) {
   var submenu = document.createElement("ul");
   submenu.className = "dropdown-menu shadow";
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
+  submenu.setAttribute("nameMethod", "Создаёт элементы топика");
   submenumainlink.appendChild(submenu);
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
@@ -42,7 +43,7 @@ function subsubmenu(parent, childdata) {
   for (item of childdata) {
     var line = document.createElement("li");
     line.className = item.submenu ? "nav-item submenu" : "nav-item";
-    line.innerHTML = linkHref(item.link, item.title);
+    line.innerHTML = linkHref1(item.link, item.title);
 
     if (item.submenu) {
       submenuId.appendChild(line);
@@ -64,7 +65,7 @@ function submenu(parent, childdata) {
   var submenu = document.createElement("ul");
   submenu.className = "dropdown-menu shadow";
   submenu.setAttribute("id", "submenu-" + parent.keyName + "-menu");
-
+  submenu.setAttribute("nameMethod", "Создаёт список топиков по теме");
   submenumainlink.appendChild(submenu);
 
   var submenuId = document.getElementById("submenu-" + parent.keyName + "-menu");
